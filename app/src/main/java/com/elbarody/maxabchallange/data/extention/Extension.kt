@@ -7,7 +7,7 @@ inline fun <reified R> String.fromJson(): R {
     return Gson().fromJson(this, R::class.java)
 }
 
-inline fun <reified R> R.toJson(): String {
+inline fun <reified R> R.toJson(): String {ssdsds
     return Gson().toJson(this, R::class.java)
 }
 
