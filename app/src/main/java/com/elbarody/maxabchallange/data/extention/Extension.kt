@@ -2,7 +2,7 @@ package com.elbarody.maxabchallange.data.extention
 
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
-
+vcbvbvbv
 inline fun <reified R> String.fromJson(): R {
     return Gson().fromJson(this, R::class.java)
 }
